@@ -1,0 +1,160 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth !important;
+}
+
+body{
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: #8D499D;
+}
+
+.container-margin{
+    width:1184px;
+    height:646px;
+    margin: 0 auto;
+    margin-top: 200px;
+    background-color: #242834;
+    border-radius: 40px;
+    box-shadow: 7px 7px 18px;
+    /* padding: 10px; */
+}
+
+.text-orange{
+    color: #ff6200;
+}
+
+/* Navbar */
+header{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 70px;
+}
+.navbar-margin{
+    margin: 43px;
+}
+.logo{
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 750;
+}
+.navbar{
+    list-style: none;
+}
+.navbar li{
+    display: inline-block;
+    padding: 0 25px;
+}
+.navbar li a{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: .5s;
+}
+.navbar li a:hover{
+    color: #FF6201;
+}
+.kontak{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border-radius: 40px;
+    background-color: #ff6200;
+    font-weight: 600;
+    transition: .5s;
+}
+.kontak:hover{
+    background-color: #ff6201e1;
+}
+.fa-phone{
+    width: 20px;
+}
+
+/* Hero Section */
+.header{
+    position: relative;
+}
+.header-container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+.header-img img{
+    width: 350px;
+}
+.heading-span{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-content{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.list-button{
+    display: flex;
+    justify-content: start;
+}
+.list-button ul li{
+    margin: 10px;   
+}
+.list-button ul{
+    list-style: none;
+}
+.instagram{
+    cursor: pointer;
+    width: 185px;
+    height: 42px;
+    background-color: #8D499D;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 550;
+    border-radius: 40px;
+    transition: .5s;
+}
+.facebook{
+    cursor: pointer;
+    width: 185px;
+    height: 42px;
+    background-color: #6370A2;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 550;
+    border-radius: 40px;
+    transition: .5s;
+}
+.instagram:hover{
+    background-color: #931cad;
+}
+.facebook:hover{
+    background-color: #3f53a5;
+}
+.text-paragraph-13{
+    font-size: 16px;
+}
+.text-paragraph-14{
+    font-size: 18px;
+}
